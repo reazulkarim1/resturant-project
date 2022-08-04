@@ -1,0 +1,137 @@
+@media all and(max-width:1200px){
+    /* header section here */
+    .navigation h2 {
+        font-size: 150px;
+    }
+    /* popular section here */
+    .imgtext img {
+        height: 145px;
+    }
+
+    /* our section here */
+    .circle {
+        width: 170px;
+        height: 160px;
+    }
+    .circle h2 {
+        padding-top: 43px;
+    }
+    /* menu section here */
+    .menu {
+        height: 663px;
+    }
+    .imgn .textp {
+        margin-left: 0%;
+        height: 100px;
+    }
+    .imgn .textp h4 {
+        font-size: 13px;
+    }
+    /* delicious section here */
+    .textd h2 {
+        font-size: 65px;
+    }
+    /* package menu section here */
+    .imgg h3 {
+        font-size: 28px;
+    }
+    /* chef section here */
+    .ran img {
+        height: 134px;
+    }
+    /* foooter section here */
+    .foot {
+        display: flex;
+        height: 198px;
+        padding: 40px 7%;
+    }
+}
+@media all and(max-width:1050px){
+    .header {
+        height: 630px;
+    }
+    
+    .header .head {
+        padding: 30px 40% 10px 40%;
+    }
+    .header .head h2 {
+        font-size: 40px;
+    }
+    .fa-ice-cream:before {
+        content: "\f810";
+        font-size: 40px;
+    }
+    .navigation ul li a {
+        font-size: 20px;
+    }
+    .navigation h2 {
+        font-size: 120px;
+    }
+    .navigation h4 {
+        font-size: 17px;
+    }
+    .navigation .button a {
+        padding: 7px 4%;
+        font-size: 18px;
+    }
+    /* popular section here */
+    .popular {
+        height: 555px;
+    }
+    .text h3 {
+        font-size: 60px;
+    }
+    .text p {
+        padding: 5px 25%;
+        font-size: 15px;
+    }
+    .imgtext {
+        height: 315px;
+    }
+    .imgtext img {
+        height: 128px;
+    }
+    .imgtext h3 {
+        font-size: 27px;
+    }
+    .imgtext p {
+        font-size: 13px;
+        padding: 10px 21%;
+    }
+    /* statics section here */
+    .our {
+        height: 480px;
+    }
+    .static h2 {
+        font-size: 50px;
+    }
+    .static p {
+        font-size: 14px;
+        padding: 0px 19%;
+    }
+    .static {
+        height: 130px;
+    }
+    .circle {
+        width: 135px;
+        height: 125px;
+    }
+    .circle h2 {
+        padding-top: 36px;
+        font-size: 25px;
+    }
+    /* our menu section here */
+    .div h2 {
+        font-size: 55px;
+    }
+    .div p {
+        font-size: 16px;
+        padding: 10px 27%;
+    }
+    .imgn {
+        margin-top: 40px;
+    }
+    .icon img{
+        height: 90px;
+    }
+}

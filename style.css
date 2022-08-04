@@ -1,0 +1,710 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* ===================================
+                global css        
+   =================================== */
+   a{
+    text-decoration: none;
+    text-transform: uppercase;
+
+   }
+
+/* ===================================
+        header section stylehere      
+   =================================== */
+.header{
+    display: flex;
+    background-image: url('./img/img.jpeg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    width: 100%;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: crimson;
+    opacity: 0.7;
+}
+.header > .obs {
+    z-index: 99;
+}
+.obs {
+    margin: 0 auto;
+}
+.header .head {
+    padding: 35px 40% 10px 40%;
+    text-align: center;
+}
+.header .head i {
+    font-size: 58px;
+    color: #ffffff;
+}
+.header .head h2 {
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: capitalize;
+    color: #ffffff;
+}
+
+
+.navigation {
+    margin: 20px 15%;
+    text-align: center;
+}
+
+.navigation ul{
+    width: 100%;
+}
+.navigation ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 0px 3%;
+}
+.navigation ul li a{
+    font-weight: 900;
+    font-size: 28px;
+    text-transform: capitalize;
+    color: #ffffff;
+    transition-delay: 0,1;
+    transition-duration: 1s;
+    transition-property: color;
+    
+}
+.navigation ul li a:hover{
+    color: rgb(0, 145, 19);
+}
+
+.navigation h2{
+    text-transform: capitalize;
+    font-size: 170px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;;
+    font-weight: 300;
+    padding: 70px 0px 0px 0px ;
+    color: #ffffff;
+}
+.navigation h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 24px;
+    font-weight: 900;
+    color: #ffffff;
+    clear: both;
+    padding-bottom: 40px;
+}
+
+.navigation .button a{
+    padding: 12px 8%;
+    background-color: #ffffff;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 25px;
+    color: crimson;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    transition-property: background-color,color;
+
+}
+.navigation .button a:hover{
+    background-color: crimson;
+    color: #ffffff;
+}
+
+
+/* ===================================
+       popular section stylehere      
+   =================================== */
+.popular{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    background-image: url('./img/image.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.overlay11{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #fffafa;
+    opacity: 0.9;
+}
+.popular .all{
+    z-index: 99;
+}
+
+
+.all{
+    margin: 50px 8%;
+    width: 100%;
+}
+
+
+.text{
+    padding-bottom: 30px;
+}
+
+.text h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Oleo Script', cursive;
+    font-size: 80px;
+    font-weight: 200;
+    color: crimson;
+}
+
+.text p{
+    text-align: center;
+    padding: 5px 15%;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(119, 118, 117);
+}
+
+
+.imgo{
+    display: flex;
+
+}
+
+.imgtext{
+    height: 100px;
+    width: 70%;
+}
+.imgtext img{
+    height: 160px;
+    width: 45%;
+    border-radius: 50%;
+    margin: 40px 25% 5px 25%;
+}
+
+.imgtext h3{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Oleo Script', cursive;
+    font-size: 35px;
+    font-weight: 100;
+    color: crimson;
+}
+
+.imgtext p{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 15%;
+    font-weight: 600;
+    color: rgb(133, 133, 134);
+}
+
+
+/* ===================================
+     statistic section style here      
+   =================================== */
+
+   .our{
+    height: 670px;
+    width: 100%;
+    display: flex;
+    background-image: url('./img/image.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+   }
+
+   .over{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: crimson;
+    opacity: 0.6;
+   }
+ 
+   .our .mainn{
+    z-index: 99;
+   }
+   .mainn{
+    padding: 80px 15%;
+    width: 100%;
+   }
+    .static{
+        height: 200px;
+        width: 100%;
+    }
+    .static h2{
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Oleo Script', cursive;
+        font-size: 70px;
+        color: #ffffff;
+
+    }
+
+    .static p{
+        font-size: 23px;
+        padding: 0px 15%;
+        text-align: center;
+        font-weight: 700;
+        color: #ffffff;
+    }
+
+   .hh2{
+    display: flex;
+    margin-top: 60px;
+   }
+
+   .circle{
+    width: 190px ;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+    border: 4px dashed rgb(255, 255, 255);
+   }
+
+   .circle h2{
+    text-align: center;
+    padding-top: 60px;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+   }
+
+   .circle h3{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    color: #ffffff;
+   }
+
+
+
+   /* ===================================
+          menu section style here      
+   =================================== */
+
+   .menu{
+    height: 763px;
+   }
+
+   .div{
+    padding: 70px 6%;
+   }
+
+   .div h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 75px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 400;
+    color: crimson;
+   }
+
+   .div p{
+    text-align: center;
+    font-size: 25px;
+    padding: 10px 20%;
+    color: #3f3f3f;
+   }
+
+   .icon{
+    display: flex;
+   }
+   .imgn{
+    display: flex;
+    margin-top: 50px;
+   }
+
+
+   .imgn .textp{
+    margin-left: 2%;
+    padding: 10px 7%;
+    height: 150px;
+
+   }
+   .imgn .textp h3{
+    text-transform: capitalize;
+    font-family: 'Oleo Script', cursive;
+    font-size: 30px;
+    color: crimson;
+    font-weight: 300;
+   }
+
+   .imgn .textp h4 {
+    color: #494747;
+    font-size: 20px;
+   }
+
+
+   .icon1{
+    display: flex;
+   }
+
+    /* ===================================
+          delicious section style here      
+        =================================== */
+
+.deli{
+    display: flex;
+    height: 650px;
+}
+
+.imd{
+    height: 650px;
+    width: 50%;
+    position: relative;
+}
+.over11{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: crimson;
+    opacity: 0.6;
+}
+.imd img{
+    z-index: 99;
+}
+.imd img{
+    height: 650px;
+    width: 100%;
+}
+
+.textd{
+    height: 280px;
+    width: 36%;
+    padding: 185px 7%;
+    background-color: rgb(245, 224, 228);
+}
+.textd h2{
+    font-size: 80px;
+    text-transform: capitalize;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 100;
+    color: crimson;
+    text-align: center;
+}
+
+.textd p{
+    font-size: 25px;
+    color: #4b4b4b;
+    padding-bottom: 30px;
+}
+
+.textd a{
+    padding: 10px 10%;
+    background-color: crimson;
+    color: #ffffff;
+    font-size: 25px;
+    border-radius: 25px;
+    transition-delay: 0.2s;
+    transition-duration: 2s;
+    transition-property: background-color;
+}
+.textd a:hover{
+    background-color: rgb(175, 2, 37);
+}
+
+
+    /* ===================================
+          package section style here      
+        =================================== */
+
+.package{
+    height: 720px;
+    width: 100%;
+    background-color: #e4c5c5;
+}
+.menubar{
+    height: 580px;
+    width: 80%;
+    padding: 70px 10%;
+}
+
+.menubar h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-family: 'Oleo Script', cursive;
+    color: crimson;
+    font-size: 70px;
+    font-weight: 200;
+}
+
+.menubar p{
+    text-align: center;
+    font-size: 23px ;
+    font-weight: 800;
+    padding: 20px 20%;
+    color: #4b4b4b;
+    padding-bottom: 50px;
+}
+
+
+.imt{
+    display: flex;
+    padding: 0px 2%;
+    text-align: center;
+    column-gap: 5.5%;
+}
+
+.imgg{
+    width: 33.33%;
+    height: 340px;
+    background-color: #ffffff;
+    padding: 10px 0px;
+    border-radius: 4%;
+
+}
+
+.imgg img{
+    padding-right: 10px;
+}
+
+.imgg h3{
+    text-align: center;
+    font-size: 35px;
+    color: rgb(214, 55, 87);
+    font-family: 'Oleo Script', cursive;
+    font-weight: 100;
+    padding-bottom: 10px;
+    text-transform: capitalize;
+}
+
+.imgg p{
+    text-align: center;
+    font-size: 20px;
+    padding: 0px 0px ;
+    color: #707570;
+    padding-bottom: 20PX;
+}
+
+.imgg a{
+    padding: 8px 30%;
+    background-color: rgb(236, 53, 89);
+    font-size: 25px;
+    border-radius: 25px;
+    color: #ffffff;
+    font-weight: 600;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    transition-property: background-color;
+}
+
+.imgg a:hover{
+    background-color: rgb(187, 11, 46);
+}
+
+    /* ===================================
+              chef section style here      
+       =================================== */
+
+.chef{
+    display: flex;
+    justify-content: center;
+    height: 540px;
+    width: 100%;
+    background-image: url('./img/img.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center ;
+    position: relative;
+}
+
+.over22{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #ffffff;
+    opacity: 0.7;
+}
+.chef .ran{
+    z-index: 99;
+}
+
+.ran {
+    height: 450px;
+    padding: 50px 15%;
+    text-align: center;
+}
+
+.ran img{
+    height: 150px;
+    margin: 50px 10% 10px 10%;
+    border-radius: 50%;
+}
+
+.ran p{
+    font-size: 25px;
+    padding: 20px 8%;
+    color: #3f3f3f;
+    font-weight: 800;
+}
+
+.ran h2{
+    font-size: 70px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 100;
+    text-transform: capitalize;
+    color: crimson;
+}
+
+    /* ===================================
+              sub section style here      
+       =================================== */
+
+.sub{
+    height: 500px;
+    width: 100%;
+    background-color: #f1d2d2;
+}
+.alll{
+    padding: 60px 10%;
+}
+
+.alll h2{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 90px;
+    font-family: 'Oleo Script', cursive;
+    font-weight: 100;
+    color: crimson;
+}
+
+.alll p{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    padding: 0px 10%;
+    color: #524f4f;
+}
+
+.search{
+    text-align: center;
+    margin: 50px;
+    height: 50px;
+}
+.search input{
+    height: 50px;
+    font-size: 20px;
+    padding: 0px 35% 0px 30px;
+    text-transform: capitalize;
+    border-style: none;
+    border-radius: 50px;
+}
+.search a{
+    font-size: 25px;
+    color: #ffffff;
+    text-align: left !important;
+    background-color: crimson;
+    height: 48px;
+    padding: 11px 7%;
+    margin-left: -7%;
+    border-radius: 50px;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    transition-property: background-color;
+}
+
+.search a:hover{
+    background-color: #d30808;
+}
+
+    /* ===================================
+            footer section style here      
+       =================================== */
+
+.footer{
+    height: 240px;
+    width: 100%;
+}
+
+.foot{
+    display: flex;
+    height: 240px;
+    background-color: rgb(43, 42, 42);
+    padding: 70px 7%;
+}
+
+.ht{
+    width: 45%;
+}
+.ht h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-weight: 100;
+    font-family: 'Oleo Script', cursive;
+    color: #ffffff;
+}
+
+.ht p{
+    color: #dfd9d9;
+    font-size: 25px;
+    padding: 10px 20%  10px 0px ;
+}
+
+
+
+
+.htt{
+    width: 55%;
+    display: flex;
+}
+
+.div1{
+    width: 33%;
+}
+
+
+.htt h2{
+    text-transform: capitalize;
+    font-size: 50px;
+    font-family: 'Oleo Script', cursive;
+    color: #ffffff;
+    font-weight: 100;
+    
+}
+.htt ul li{
+    list-style: none;
+}
+
+.htt ul li a{
+    text-transform: capitalize;
+    padding: 5px 0px ;
+    color: #eee5e5;
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    transition-delay: 0.1s;
+    transition-duration: 1s;
+    transition-property: color,font-size ;
+}
+
+.htt ul li a:hover{
+    font-size: 25px;
+    color: #969696;
+}
+
+.htt ul li a i{
+    padding-right: 10px;
+}
+
+                                        /* ===================================
+                                                 end ------------- here      
+                                           =================================== */
